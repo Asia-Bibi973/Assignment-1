@@ -1,0 +1,181 @@
+* {
+    margin: 5;
+    padding: 10;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #b3c3bc;
+    color: #333;
+    line-height: 1.6;
+}
+/* Header */
+
+header {
+    background-color: #050346;
+    color: white;
+    padding: 20px 7%;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+header h2 {
+    background-color: #05023b;
+    align-self: 
+    margin-right auto;
+}
+
+header input {
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+}
+
+header button {
+    padding: 10px 20px;
+    cursor: pointer;
+}
+/* Navigation */
+
+nav {
+    background-color: rgb(233, 231, 231);
+    padding: 8px 2%;
+}
+
+nav a {
+    color: #333;
+    text-decoration: none;
+    margin-right: 20px;
+}
+.img
+{
+    max-height: 100;
+}
+/* Breadcrumb */
+
+.breadcrumb {
+    padding: 20px 7%;
+    font-size: 14px;
+}
+
+.breadcrumb a {
+    color: #1685c5;
+    text-decoration: none;
+}
+
+/* Main */
+
+main {
+    background-color: white;
+    margin: 20px auto;
+    padding: 30px;
+    max-width: 1100px;
+}
+
+main h1 {
+    background-color: #05023b;
+    color: white;
+    font-size: 27px;
+    margin-bottom: 25px;
+}
+/*Download*/
+h2
+{
+     background-color: #b3c3bc ;
+}
+
+/* Game */
+
+.game-container {
+    display: flex;
+    gap: 35px;
+    align-items: flex-start;
+}
+
+.game-image img {
+    width: 230px;
+    height: 230px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.game-details {
+    flex: 1;
+}
+
+.game-details p {
+    padding: 7px;
+    border-bottom: 1px solid #eee;
+}
+
+/* Button */
+
+.download-btn {
+    display: inline-block;
+    background-color: #05023b;
+    color: white;
+    text-decoration: none;
+    padding: 12px 35px;
+    margin-top: 20px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.download-btn:hover {
+    background-color: #444;
+}
+
+/* Description */
+
+.description {
+    margin-top: 40px;
+}
+
+.description h2 {
+    background-color:  #b3c3bc;
+    margin-bottom: 15px;
+}
+
+/* Download */
+
+.download {
+    background-color:rgb(233, 231, 231);
+    padding: 30px;
+    margin-top: 35px;
+    text-align: center;
+}
+
+/* Footer */
+
+footer {
+    background-color: #100230;
+    color: rgb(235, 234, 239);
+    text-align: center;
+    padding: 25px;
+    margin-top: 30px;
+}
+
+/* Responsive */
+
+@media(max-width: 700px) {
+
+    header {
+        flex-wrap: wrap;
+    }
+
+    .game-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .game-details {
+        width: 100%;
+    }
+
+    main {
+        padding: 18px;
+    }
+
+}

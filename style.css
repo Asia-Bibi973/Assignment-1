@@ -1,0 +1,93 @@
+h1 {
+    margin: 5px;
+    padding: 10px;
+    border: 2px solid rgb(167, 33, 138);
+    color: rgb(246, 245, 247);
+    background-color: #14213d;
+}
+
+h2 {
+    margin: 5px;
+    padding: 10px;
+    border: 2px solid rgb(167, 33, 138);
+    color: rgb(246, 245, 247);
+    background-color: #14213d;
+}
+
+h3 {
+     margin: 5px;
+    padding: 10px;
+    border: 2px solid rgb(167, 33, 138);
+    color: rgb(246, 245, 247);
+    background-color: #14213d;
+}
+
+h4 {
+     margin: 5px;
+    padding: 10px;
+    border: 2px solid rgb(167, 33, 138);
+    color: rgb(251, 250, 250);
+    background-color: #14213d;
+}
+
+h5 { margin: 5px;
+    padding: 10px;
+    border: 2px solid rgb(167, 33, 138);
+    color: rgb(246, 245, 247);
+    background-color: #14213d;
+}
+
+h6 {
+     margin: 5px;
+    padding: 10px;
+    border: 2px solid rgb(167, 33, 138);
+    color: rgb(246, 245, 247);
+    background-color: #14213d;
+}
+h1, h2,h3 {
+    text-align: center;
+}
+.footer {
+   
+    margin: 5px;
+    border: 2px solid rgb(167, 33, 138); background-color: #14213d;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    font-size: 14px;
+}
+
+.footer p {
+    margin: 5px;
+    background-color: transparent;
+}
+body
+{
+    background-color:rgb(232, 246, 241);
+}
+p
+{
+  margin: 5px;
+    padding: 10px;
+    border: 2px solid rgb(167, 33, 138);
+    text-align: left;
+    background-color:rgb(202, 203, 203) ;  
+}
+ul
+{
+     margin: 5px;
+    padding: 10px;
+    border: 2px solid rgb(167, 33, 138);
+    background-color:rgb(202, 203, 203) ;
+}
+ol
+{
+     margin: 5px;
+    padding: 10px;
+    border: 2px solid rgb(167, 33, 138);
+    background-color:rgb(202, 203, 203) ;
+}
+img {
+    display: block;
+    margin: auto;
+}
